@@ -1,13 +1,22 @@
 import { type NextPage } from "next";
+import styled from "styled-components";
 import ContactFormSC from "~/components/styled-components/contact-form/contact-form";
 
 const Home: NextPage = () => {
+
+  const MainStyled = styled.main`
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, red, darkblue);
+  `
+
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+    <MainStyled>
         <ContactFormSC />
-      </main>
-    </>
+    </MainStyled>
   );
 };
 
