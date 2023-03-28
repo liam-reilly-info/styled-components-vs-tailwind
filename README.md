@@ -1,28 +1,17 @@
-# Create T3 App
+# www.liam-reilly.info/blog project
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This repository contains the source code for a blog [post](https://www.liam-reilly.info/blog/post/tailwind/).
 
-## What's next? How do I make an app with this?
+This post shows how you might build a `<ContactForm>` component and how you might style it using two very different approaches.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+The first method is styling using the popular CSS-in-JS library: [Styled Components](https://styled-components.com/).
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+The second method is styling using the popular CSS utility library: [Tailwind CSS](https://tailwindcss.com/). 
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+The project is a complete web app built with the following technologies:
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+* React
+* NextJS
+* TypeScript
+* Tailwind CSS
+* Styled-Components
