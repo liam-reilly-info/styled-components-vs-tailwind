@@ -8,6 +8,7 @@ const Home: NextPage = () => {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom, red, darkblue);

@@ -7,7 +7,7 @@ interface FormComponentProps {
 const ContactFormStyled = styled.form`
     display: grid;
     background-color: gray;
-    color: white;
+    color: black;
     border: white 2px solid;
     border-radius: .5rem;
     grid-template-rows: repeat(7, minmax(0, 1fr));
@@ -15,11 +15,12 @@ const ContactFormStyled = styled.form`
 `
 
 const HeaderOneStyled = styled.h1<FormComponentProps>`
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     justify-self: center;
     grid-row: ${ (props) => props.row };
     grid-column: 1 / span 2;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 `
 
 const LabelStyled = styled.label<FormComponentProps>`
@@ -47,6 +48,7 @@ const TextAreaStyled = styled.textarea<FormComponentProps>`
 const ButtonStyled = styled.button<FormComponentProps>`
     background-color: blue;
     border-radius: .25rem;
+    color: white;
     grid-column: span 2;
     height: 3rem;
     margin-top: 1.5rem;
