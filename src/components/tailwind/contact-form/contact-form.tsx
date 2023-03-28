@@ -1,8 +1,9 @@
-import Input from "./input-example"
+import type { FC } from "react";
+// import Input from "./input-example";
 
-const ContactFormTW = () => {
+const ContactFormTW: FC = () => {
 
-    const msg: string = "Hello World!"
+    const msg = "Hello World!";
 
     const sayHello = () => {
         alert(msg);

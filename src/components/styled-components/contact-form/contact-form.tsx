@@ -1,3 +1,5 @@
+import type { FC } from "react";
+
 import { 
     ContactFormStyled,
     HeaderOneStyled,
@@ -7,7 +9,7 @@ import {
     ButtonStyled
 } from "./contact-form.styled";
 
-const ContactFormSC = () => <ContactFormStyled>
+const ContactFormSC: FC = () => <ContactFormStyled>
     <HeaderOneStyled row="1">Styled-Components Form</HeaderOneStyled>
 
     <LabelStyled row="2" placeholder="name">Name:</LabelStyled>
